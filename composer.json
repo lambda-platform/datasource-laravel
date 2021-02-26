@@ -22,5 +22,10 @@
       "Datasource": "Lambda\\DataSource\\DataSource"
     }
   },
-  "require": {}
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Lambda\\DataSource\\": "src"
+    }
+  }
 }
