@@ -1,5 +1,5 @@
 {
-  "name": "datasource",
+  "name": "lambda-platform/datasource",
   "description": "datasource",
   "type": "plugin",
   "license": "MIT",
@@ -19,7 +19,7 @@
       "Lambda\\DataSourceServiceProvider"
     ],
     "aliases": {
-      "Datasource": "Lambda\\DataSource"
+      "Datasource": "Lambda\\DataSource\\DataSource"
     }
   },
   "require": {}
